@@ -1,0 +1,40 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter",
+    "Manrope", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #e5e7eb;
+  background-color: #050608;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, #3b0a9e22, transparent 60%),
+    radial-gradient(circle at bottom right, #70cbcf22, transparent 55%),
+    #050608;
+  color: #f9fafb;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
